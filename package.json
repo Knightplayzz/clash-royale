@@ -1,0 +1,38 @@
+{
+  "name": "clash-royale",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.18.0"
+  },
+  "type": "commonjs",
+  "description": "Npm package that connects to the clash royale api to get information.Player data ect.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knightplayzz/clash-royale.git"
+  },
+  "keywords": [
+    "clash-royale",
+    "clash",
+    "clash-api",
+    "API",
+    "Supercell"
+  ],
+  "author": "Philippe Smeets",
+  "license": "CC BY-NC",
+  "bugs": {
+    "url": "https://github.com/Knightplayzz/clash-royale/issues"
+  },
+  "homepage": "https://github.com/Knightplayzz/clash-royale#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.13"
+  },
+  "devDependencies": {
+    "coveralls": "^3.1.1",
+    "eslint": "^8.47.0",
+    "jest": "^29.6.2"
+  }
+}
