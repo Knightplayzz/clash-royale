@@ -1,11 +1,11 @@
 {
-  "name": "clash-royale",
+  "name": "clashroyale.js",
   "version": "1.0.0",
   "engines": {
     "node": "16.18.0"
   },
   "type": "commonjs",
-  "description": "Npm package that connects to the clash royale api to get information.Player data ect.",
+  "description": "Npm package that connects to the clash royale api to get information. Player data ect.",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
@@ -33,6 +33,6 @@
   "devDependencies": {
     "coveralls": "^3.1.1",
     "eslint": "^8.47.0",
-    "jest": "^29.6.2"
+    "jest": "^29.6.3"
   }
 }
