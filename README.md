@@ -32,8 +32,8 @@ Created By: Philippe Smeets
 const client = require('clash-of-clans-node');
 async function myFunction() {
     await client.login('YOUR-TOKEN-HERE');
-    const player = await client.getPlayer()
-    
+    const player = await client.getPlayer('#8CY9L2CJ')
+    console.log(`${player.name} (${player.tag})`)
 }
 myFunction();
 ```
